@@ -1,0 +1,326 @@
+/** Footer **/
+footer {
+    margin-top: 1%;
+}
+
+.footer-icon {
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.social-media-links {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.social-media-links:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #c66f7a;
+}
+
+footer  ul {
+    padding-left: 0;
+}
+
+footer ul > li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+
+.footer-row {
+    margin: 0% 5% 0% 5%;
+  
+
+}
+
+.footer-container {
+    background-color: #4E5283;
+    color: white;
+    border-radius: 25px 25px 0px 0px;
+    text-align: left;
+    padding: 3% 5% 3% 5%;
+    box-shadow: 2px -3px 4px #cecece;
+}
+
+.footer-row-2 {
+    background-color: #c66f7a;
+        color: white;
+        text-align: center;
+        padding: 10px;
+}
+
+/** Body **/
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+/** Navbar **/
+.nav-item {
+    padding: 0px 10px;
+    margin: 5px 0px;
+}
+
+.nav-link {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white !important;
+    width: 100px;
+    text-align: center;
+    font-family: "KoHo", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-link:hover {
+    background-color: #c66f7a;
+    padding: 10px 20px;
+    color: #362e54 !important;
+}
+.nav-link.active {
+    background-color: #c66f7a;
+    padding: 10px 20px;
+    color: #362e54 !important;
+}
+
+.navbar {
+    background-color: #4E5283 !important;
+    width: 75%;
+    box-shadow: 2px 3px 4px #cecece;
+    margin: auto;
+    border-radius: 50px;
+}
+.navbar-nav {
+    flex: auto;
+        align-items: center;
+        justify-content: center;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/** Home CSS **/
+.home-banner {
+    background-color: lavenderblush !important;
+    padding-top: 20px;
+    border-radius: 0 0 25px 25px;
+    box-shadow: 2px 3px 4px #cecece;
+    text-align: center;
+}
+
+.tech-item {
+    width: 100px;
+}
+
+.about-me-content {
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+    font-size: 22px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-title {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #362e54;
+}
+
+.card-body {
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/** CV page CSS **/
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    background-color: #4e52834c;
+    top: 0;
+    bottom: 0;
+    left: 2%;
+    border-radius: 25px;
+    margin: 10px 0px;
+}
+
+.content-container {
+    padding: 10px 20px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+    left: 5%
+}
+
+.content-container::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: calc(-3% - 15px + 6px);
+    /**calc (how far timeline is - how far content-container is)  - half the circle size + half the size of the bar  **/
+    background-color: white;
+    border: 4px solid #c66f7a;
+    top: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 0 15px #c66f7a;
+    /* Add this line for the glowing effect */
+
+}
+
+.content {
+    padding: 20px 30px;
+    border-radius: 6px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.circle {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: white 1px solid;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    margin-right: 10px;
+}
+
+blockquote {
+    border-left: 5px solid #eee;
+    padding: 10px 10px;
+    margin: 5px 0 10px;
+    font-size: 17.5px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.workplace {
+    display: flex;
+    align-items: center;
+}
+
+.workplace h2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.workplace-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+
+.workplace-detail h4 {
+    font-family: "KoHo", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.workplace-detail p {
+    font-family: "KoHo", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@media screen and (max-width: 600px) {
+    .workplace-detail {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+.experience-heading {
+    text-align: center;
+    padding: 5px 0px;
+    color: #c66f7a;
+    width: 75%;
+    margin: auto;
+}
+
+.experience-heading h1 {
+    font-family: "Euphoria Script", cursive;
+    font-weight: bolder !important;
+    font-style: normal !important;
+}
+
+/** Overall styling **/
+
+.btn-primary {
+    background-color: #4E5283;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border-color: #4E5283;
+}
+
+.btn-primary:hover {
+    background-color: #362e54;
+    border-color: #362e54;
+}
+
+.btn-outline-primary {
+    background-color: white;
+    border-color: #c66f7a;
+    color: #c66f7a;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #c66f7a;
+    border-color: #c66f7a;
+}
+
+.btn-outline-primary:active {
+    background-color: #c66f7a !important;
+    border-color: #c66f7a !important;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+    font-family: "KoHo", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+hr {
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    border: 0;
+    width: 70%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    border-top: 2px solid #808080;
+}
+
+h1 {
+    font-size: 60px;
+}
