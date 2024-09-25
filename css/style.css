@@ -161,7 +161,7 @@ body {
     background-color: #4e52834c;
     top: 0;
     bottom: 0;
-    left: 2%;
+    left: 3%;
     border-radius: 25px;
     margin: 10px 0px;
 }
@@ -179,7 +179,7 @@ body {
     position: absolute;
     width: 30px;
     height: 30px;
-    left: calc(-3% - 15px + 6px);
+    left: calc(-2% - 15px + 6px);
     /**calc (how far timeline is - how far content-container is)  - half the circle size + half the size of the bar  **/
     background-color: white;
     border: 4px solid #c66f7a;
